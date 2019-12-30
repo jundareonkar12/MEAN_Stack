@@ -1,0 +1,20 @@
+
+
+Tasks for Node JS
+
+1.Install  Node JS 12.14.0 on computer.
+2.Test the version of Nodejs running.
+3.Add simple varialble declarations and reusable functions in hello.js file.
+4.Test javascript source file execution using nodejs.
+5.Add new javascript timer.js  with onTimer and onDisplay reusable function.
+6.Use setInterval function to register both functions to be invoked automatically after few interval.
+7.Add new Javascript file tflio.js using Visual code.
+8.Implement logic for writing and reading text file with the help of CALLBACK functions.
+9.Add new javascript file account.js
+10.Implement balance as property, ?Withdraw , deposit innerfunctions to account function.
+11.Use Javascript prototyping mechanism to define account as type (class)
+12.Publish deposit,withdra functions from account.
+13.Test account behaviour by creating instance of account.
+14.Add ShoppingCart as class using Javascript prototyping.
+15.Define item, items , addtocart, removefromcart, getItems as behaviour to ShoppingCart.
+16.Test Shoppingcart.js functionality.
