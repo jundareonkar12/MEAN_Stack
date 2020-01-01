@@ -1,0 +1,33 @@
+
+1.Test angular cli installed or not
+2.Install angular cli
+npm install -g @angular/cli
+3.Create new angular project using 
+"ng new TFLStore"
+--do you want to use routing-NOOOOOO
+--choose styling : css , press enter
+4.change  directorry to TFLStory
+"cd TFLStore"
+5.Run angular application in development environment
+"ng serve"
+6.access angular application using browser
+http//localhost:4200----you'll get landing angular page
+7.Open folder TFLstore using Visual Code
+8.Clean Content of app.component.html file
+9.Add data members to application.component.ts file
+10.Add default CTOR to component class in same file
+11.Add onControlChange method to component class
+12.Implement presentation for app.component.html file using data binding,event binding, filter(pipe)
+13.Import FormsModule in app.module.ts file--bcoz ng-model directive inside this module
+14.Add image folder to assets...Upload image in assets/images forlder
+15.Test angular application with desired output
+16.Add new component Login
+"ng generate component Login"
+17.Implement presentation for login.component.html
+18.Link Login component in app.component.html file
+using selectors:- <app-login></app-login>
+19.Test angular application output to view Login on form
+20.Add new components 1.home,1.about,2.contact,3.list,4.detail,5.register,6.shopping-cart 
+using "ng generate component ******" command
+21.Read 1st 10 pages pgs angular notes shared by Ravi Tambade
+

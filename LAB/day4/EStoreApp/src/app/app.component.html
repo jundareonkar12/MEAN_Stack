@@ -1,0 +1,27 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <h3>Flowers for your celebration</h3>
+  <ol>
+    <li>Rose</li>
+    <li>Gerbera</li>
+    <li>Genda</li>
+  </ol>
+  <img src="assets/images/Transflower.jpg" width="100" height="100" />
+  <h3>Mentor Details</h3>
+  <p>Name:{{Mentor.Name}}</p>
+  <p>Colage:{{Mentor.Collage}}</p>
+  <p>Company:{{company | uppercase}}</p>
+  <div>
+
+    <!--<input [(ngModel)]="company" />-->
+    <button (click)="onControlChange()">Change_Company</button>
+  </div>
+  <!--On click it will call onControlChange() of app.components.ts-->
+</body>
+
+</html>
