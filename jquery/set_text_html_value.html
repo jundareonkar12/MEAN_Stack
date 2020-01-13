@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+$(Document).ready(function()
+{
+$("#btn1").click(function()
+{
+    $("p").text("hey text is changed");
+});
+$("#btn2").click(function(){
+    $("h2").html("<h1>my html chnged</h1>");
+});
+$("btn3").click(function()
+{
+    $("#inp").val("my value changed");
+});
+})
+</script>
+    </head>
+    <body>
+        <p>im text</p>
+        <h2>im html</h2>
+        <input type="text" value="im value" id="inp"/>
+        <div>
+            <input type="button" value="chng text" id="btn1">
+            <input type="button" value="chng html" id="btn2">
+            <input type="button" value="chng value" id="btn3">
+        </div>       
+    </body>
+</html>
